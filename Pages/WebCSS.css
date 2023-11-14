@@ -27,12 +27,21 @@ h1{
 	font-size: 5em; 
 }
 
+h2{
+	font-size: 3em; 
+}
+
+h3{
+	font-size: 2em; 
+}
+
 h2, h3{
 	color: #a4927d;
 }
 
 p{
 	color: #785d44;
+	font-size: 1.5em;
 }
 
 h2, h3, h4, p{
@@ -40,9 +49,15 @@ h2, h3, h4, p{
 	padding-right: 1em;
 }
 
+ul{
+	font-size: 1.3em;
+	color: #785d44;
+	padding-right: 1em;
+}
+
 main{
 	padding-left: 0em;
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 	padding-top: 0em;
 	padding-right: 0em;
 	display: block;
@@ -79,6 +94,14 @@ footer {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url(campusLandscape.jpeg);
+		
+}
+
+#InformationImage{
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(bookLandscape.jpeg);
 		
 }
 
