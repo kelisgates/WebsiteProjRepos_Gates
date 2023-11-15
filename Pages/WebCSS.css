@@ -113,4 +113,30 @@ footer {
 		
 }
 
+table, th, td {
+	border: 1px solid;
+}
+table {
+	width: 90%;
+	border-spacing: 0;
+	margin: auto;
+	font-size: 1em;
+}
+
+th{
+	font-size: 2.5em;
+}
+
+td {
+	font-size: 2em;
+	padding: 40x;
+	text-align: center;
+}
+
+tr:nth-of-type(odd) {background-color: #a4927d;}
+tr:nth-of-type(even) {background-color: #ded5bf;}
+
+.center {
+	text-align: center;
+}
 
