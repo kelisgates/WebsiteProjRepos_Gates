@@ -121,6 +121,14 @@ footer {
 		
 }
 
+#SuppliesImage{
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url(suppliesLandscape.jpeg);
+		
+}
+
 table, th, td {
 	border: 1px solid;
 }
@@ -146,5 +154,23 @@ tr:nth-of-type(even) {background-color: #ded5bf;}
 
 .center {
 	text-align: center;
+}
+
+img {
+		padding-right: 10px;
+		padding-left: 10px;
+		width: 20%;
+		height: auto;
+		float: right;
+	}
+
+
+.supply {
+	background-color: #ded5bf;
+	margin: 1em;
+	padding: 1em;
+	overflow: auto;
+		h3{font-size: 2em;}
+		
 }
 
